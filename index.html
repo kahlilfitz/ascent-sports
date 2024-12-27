@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascent-Tier Sports Solutions</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #007bff;
+        }
+
+        .donate-button {
+            background-color: #007bff;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .donate-button:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 80px auto 0;
+            padding: 2rem;
+        }
+
+        section {
+            min-height: 80vh;
+            padding: 4rem 0;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #007bff;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #007bff;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            color: #444;
+        }
+
+        .highlight {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            border-left: 4px solid #007bff;
+        }
+
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .program-card {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .program-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .team-structure {
+            margin-top: 2rem;
+        }
+
+        .team-section {
+            margin-bottom: 3rem;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .team-member {
+            background-color: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .team-member h4 {
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .member-highlight {
+            color: #007bff;
+            font-weight: bold;
+            margin-top: 0.5rem;
+        }
+
+        .member-detail {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        .position-status {
+            color: #666;
+            font-style: italic;
+        }
+
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .donate-button {
+                padding: 0.4rem 1rem;
+            }
+
+            main {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ascent-Tier Sports</div>
+            <div class="nav-links">
+                <a href="#mission">Mission</a>
+                <a href="#programs">Programs</a>
+                <a href="#impact">Impact</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#donate" class="donate-button">Donate</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="mission">
+            <h1>Athletes First, Always</h1>
+            <h2>Supporting Athletics in Communities of Color</h2>
+            <p>Our mission is to create a fairer, healthier, and more rewarding sports ecosystem where success is measured not only by wins but by lifelong holistic well-being.</p>
+            <div class="highlight">
+                <h3>Fundraising Goal: $100,000</h3>
+                <p>First $10,000 will be matched dollar-for-dollar!</p>
+            </div>
+        </section>
+
+        <section id="programs">
+            <h2>Our Programs</h2>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <h3>Big Chance Camp & Showcase</h3>
+                    <p>Providing free and subsidized vouchers for athletes to attend premier sports camps, combines, and showcases.</p>
+                </div>
+                <div class="program-card">
+                    <h3>Fuel Program</h3>
+                    <p>Addressing food insecurity among student-athletes by ensuring access to nutritious meals throughout the week.</p>
+                </div>
+                <div class="program-card">
+                    <h3>Community Workshops</h3>
+                    <p>Free workshops on mental conditioning, college recruitment, and developing robust public sports programming.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="impact">
+            <h2>Why This Matters</h2>
+            <p>Communities of color often face barriers that hinder athletic potential. We believe in strong youth programs with quality coaching and seamless navigation of scholastic sports and college recruitment processes.</p>
+            <p>Our philosophy, inspired by ubuntu ("I am because we are"), emphasizes community connection and follows the Long-Term Athlete Development Program approach.</p>
+        </section>
+
+        <section id="about">
+            <h2>Our Team</h2>
+            <div class="team-structure">
+                <div class="team-section">
+                    <h3>Executive Leadership</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <h4>Amado Lambert</h4>
+                            <p>Principal, Managing Director</p>
+                        </div>
+                        <div class="team-member">
+                            <h4>Fatima Ashraf</h4>
+                            <p>Chief Operating Officer (COO)</p>
+                        </div>
+                        <div class="team-member">
+                            <h4>Derrick Adkins</h4>
+                            <p>Chief Performance Officer (CPO)</p>
+                            <p class="member-highlight">Olympic Gold Medalist</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-section">
+                    <h3>Key Advisors</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <h4>Jelani Cowan</h4>
+                            <p>Chief Information Officer (CIO) - Advisor</p>
+                            <p class="member-detail">STEM & Sports Careers Exploration Project</p>
+                        </div>
+                        <div class="team-member">
+                            <h4>Ellakisha O'Kelley, Esq.</h4>
+                            <p>Outside General Counsel</p>
+                            <p class="member-detail">Scire De Jure Legal Firm, LLC</p>
+                        </div>
+                        <div class="team-member">
+                            <h4>Trenten Beram</h4>
+                            <p>Data Science Advisor</p>
+                            <p class="member-detail">Analytics and Insights</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-section">
+                    <h3>Leadership Positions</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <p>Director of Athletic Programs</p>
+                            <p class="position-status">Position Opening</p>
+                        </div>
+                        <div class="team-member">
+                            <p>Director of Education, Arts & Sciences</p>
+                            <p class="position-status">Position Opening</p>
+                        </div>
+                        <div class="team-member">
+                            <p>Senior Consultant</p>
+                            <p class="position-status">Position Opening</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Join Us</h2>
+            <div class="contact-info">
+                <p>Join us in reimagining what sports can be—a pathway to personal growth, community strength, and a legacy of success. Together, we can level the playing field and support the athletic dreams of young people in communities of color.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
