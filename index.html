@@ -162,10 +162,24 @@
             padding: 1.5rem;
             border-radius: 8px;
             transition: transform 0.3s ease;
+            display: flex;
+            gap: 1rem;
+            align-items: start;
         }
 
         .team-member:hover {
             transform: translateY(-5px);
+        }
+
+        .team-member-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .team-member-info {
+            flex: 1;
         }
 
         .team-member h4 {
@@ -277,17 +291,26 @@
                     <h3>Executive Leadership</h3>
                     <div class="team-grid">
                         <div class="team-member">
-                            <h4>Amado Lambert</h4>
-                            <p>Principal, Managing Director</p>
+                            <img src="image/headshot-amado-lambert.png" alt="Amado Lambert" class="team-member-image">
+                            <div class="team-member-info">
+                                <h4>Amado Lambert</h4>
+                                <p>Principal, Managing Director</p>
+                            </div>
                         </div>
                         <div class="team-member">
-                            <h4>Fatima Ashraf</h4>
-                            <p>Chief Operating Officer (COO)</p>
+                            <img src="image/headshot-placeholder.png" alt="Fatima Ashraf" class="team-member-image">
+                            <div class="team-member-info">
+                                <h4>Fatima Ashraf</h4>
+                                <p>Chief Operating Officer (COO)</p>
+                            </div>
                         </div>
                         <div class="team-member">
-                            <h4>Derrick Adkins</h4>
-                            <p>Chief Performance Officer (CPO)</p>
-                            <p class="member-highlight">Olympic Gold Medalist</p>
+                            <img src="image/headshot-derrick-adkins.jpg" alt="Derrick Adkins" class="team-member-image">
+                            <div class="team-member-info">
+                                <h4>Derrick Adkins</h4>
+                                <p>Chief Performance Officer (CPO)</p>
+                                <p class="member-highlight">Olympic Gold Medalist</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -296,19 +319,28 @@
                     <h3>Key Advisors</h3>
                     <div class="team-grid">
                         <div class="team-member">
-                            <h4>Jelani Cowan</h4>
-                            <p>Chief Information Officer (CIO) - Advisor</p>
-                            <p class="member-detail">STEM & Sports Careers Exploration Project</p>
+                            <img src="image/headshot-jelani-cowan.jpeg" alt="Jelani Cowan" class="team-member-image">
+                            <div class="team-member-info">
+                                <h4>Jelani Cowan</h4>
+                                <p>Chief Information Officer (CIO) - Advisor</p>
+                                <p class="member-detail">STEM & Sports Careers Exploration Project</p>
+                            </div>
                         </div>
                         <div class="team-member">
-                            <h4>Ellakisha O'Kelley, Esq.</h4>
-                            <p>Outside General Counsel</p>
-                            <p class="member-detail">Scire De Jure Legal Firm, LLC</p>
+                            <img src="image/headshot-ellakisha.png" alt="Ellakisha O'Kelley" class="team-member-image">
+                            <div class="team-member-info">
+                                <h4>Ellakisha O'Kelley, Esq.</h4>
+                                <p>Outside General Counsel</p>
+                                <p class="member-detail">Scire De Jure Legal Firm, LLC</p>
+                            </div>
                         </div>
                         <div class="team-member">
-                            <h4>Trenten Beram</h4>
-                            <p>Data Science Advisor</p>
-                            <p class="member-detail">Analytics and Insights</p>
+                            <img src="image/headshot-placeholder.png" alt="Trenten Beram" class="team-member-image">
+                            <div class="team-member-info">
+                                <h4>Trenten Beram</h4>
+                                <p>Data Science Advisor</p>
+                                <p class="member-detail">Analytics and Insights</p>
+                            </div>
                         </div>
                     </div>
                 </div>
